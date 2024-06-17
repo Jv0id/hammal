@@ -4,19 +4,17 @@ Hammal 是运行于 cloudflare workers 上的 Docker 镜像加速工具，用于
 
 文档： https://singee.atlassian.net/wiki/spaces/MAIN/pages/5079084/Cloudflare+Workers+Docker 
 
+# 部署
 
 利用 Cloudflare Workers 自建 Docker 镜像
 
-
-Owned by Bryan
 
 Last updated: Jun 08, 20241 min read
 Fork & Clone
 首先 fork 仓库 [GitHub - Jv0id/hammal: docker-registry proxy run in cloudflare workers](https://github.com/Jv0id/hammal) ，并克隆到本地
 
-可以的话顺便给个 Star😂
 
-使用 pnpm install 安装依赖
+使用 `pnpm install` 安装依赖
 
 创建 `Workers` 项目
 进入 `Cloudflare Dashboard` 创建一个新的 `Workers` 项目，给他一个命名（例如 hammal）
